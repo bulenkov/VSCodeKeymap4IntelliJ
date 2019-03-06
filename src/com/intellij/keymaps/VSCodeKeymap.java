@@ -1,6 +1,7 @@
 package com.intellij.keymaps;
 
 import com.intellij.openapi.keymap.impl.BundledKeymapProvider;
+import com.intellij.openapi.util.SystemInfo;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
@@ -16,7 +17,14 @@ public class VSCodeKeymap implements BundledKeymapProvider {
     @NotNull
     @Override
     public List<String> getKeymapFileNames() {
-        return Collections.singletonList("VSCode.xml");
+        if (SystemInfo.isMac) {
+            return Collections.singletonList("VSCodeMacOs.xml");
+        }
+        if (SystemInfo.isWindows) {
+            return Collections.singletonList("VSCodeWindows.xml");
+        }
+
+        return Collections.singletonList("VSCodeLinux.xml");
     }
 
     @Override
