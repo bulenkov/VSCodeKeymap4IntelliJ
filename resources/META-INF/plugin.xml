@@ -8,11 +8,7 @@
       VS Code Keymap for IntelliJ-based IDEs: IntelliJ IDEA, WebStorm, PhpStorm, and others
     </description>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
-
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
+  <idea-version since-build="181"/>
 
   <depends>com.intellij.modules.lang</depends>
 
@@ -20,8 +16,5 @@
     <bundledKeymapProvider implementation="com.intellij.keymaps.VSCodeKeymap" />
   </extensions>
 
-  <actions>
-    <!-- Add your actions here -->
-  </actions>
-
+  <actions/>
 </idea-plugin>
