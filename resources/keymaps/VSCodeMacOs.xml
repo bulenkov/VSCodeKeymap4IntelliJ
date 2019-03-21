@@ -1,4 +1,4 @@
-<keymap version="1" name="VS Code" parent="Mac OS X 10.5+">
+<keymap version="1" name="VS Code" parent="$default">
     <action id="$Delete">
         <keyboard-shortcut first-keystroke="delete" />
         <keyboard-shortcut first-keystroke="back_space" />
@@ -249,13 +249,12 @@
         <keyboard-shortcut first-keystroke="shift enter" />
         <keyboard-shortcut first-keystroke="meta add" />
     </action>
-    <action id="ExpandLiveTemplateByTab" />
-    <action id="ExpandLiveTemplateCustom">
-        <keyboard-shortcut first-keystroke="tab" />
-    </action>
     <action id="ExpandRegion">
         <keyboard-shortcut first-keystroke="meta alt close_bracket" />
         <keyboard-shortcut first-keystroke="meta equals" />
+    </action>
+    <action id="Tab">
+        <keyboard-shortcut first-keystroke="Tab" />
     </action>
     <action id="ExpandRegionRecursively">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta close_bracket" />

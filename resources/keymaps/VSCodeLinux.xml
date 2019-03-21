@@ -151,11 +151,9 @@
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
-    <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
@@ -164,10 +162,14 @@
   </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
-  <action id="EditorNextWord" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
   <action id="EditorPageDownWithSelection" />
   <action id="EditorPageUpWithSelection" />
-  <action id="EditorPreviousWord" />
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectLine">
@@ -206,9 +208,8 @@
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
-  <action id="ExpandLiveTemplateByTab" />
-  <action id="ExpandLiveTemplateCustom">
-    <keyboard-shortcut first-keystroke="tab" />
+  <action id="Tab">
+    <keyboard-shortcut first-keystroke="Tab" />
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
