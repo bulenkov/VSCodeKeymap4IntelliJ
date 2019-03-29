@@ -1,4 +1,4 @@
-<keymap version="1" name="VS Code" parent="$default">
+<keymap version="1" name="VSCodeMacOs" parent="$default">
     <action id="$Delete">
         <keyboard-shortcut first-keystroke="delete" />
         <keyboard-shortcut first-keystroke="back_space" />
