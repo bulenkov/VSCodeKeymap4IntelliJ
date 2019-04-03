@@ -242,6 +242,7 @@
     </action>
     <action id="EditorUnindentSelection">
         <keyboard-shortcut first-keystroke="meta open_bracket" />
+        <keyboard-shortcut first-keystroke="shift tab" />
     </action>
     <action id="ExpandAll">
         <keyboard-shortcut first-keystroke="meta add" />
