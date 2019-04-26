@@ -17,19 +17,13 @@ public class VSCodeKeymap implements BundledKeymapProvider {
     @NotNull
     @Override
     public List<String> getKeymapFileNames() {
-        if (SystemInfo.isMac) {
-            return Collections.singletonList("VSCodeMacOs.xml");
-        }
-        if (SystemInfo.isWindows) {
-            return Collections.singletonList("VSCodeWindows.xml");
-        }
-
-        return Collections.singletonList("VSCodeLinux.xml");
+        return Collections.singletonList("VSCode.xml");
     }
 
     @Override
     public <R> R load(@NotNull String key, @NotNull Function<? super InputStream, ? extends R> consumer) throws IOException {
-        try (InputStream stream = VSCodeKeymap.class.getResourceAsStream("/keymaps/" + key)) {
+        String os = SystemInfo.isMac ? "macos" : SystemInfo.isWindows ? "windows" : "linux";
+        try (InputStream stream = VSCodeKeymap.class.getResourceAsStream("/keymaps/" + os + "/" + key)) {
             return consumer.apply(stream);
         }
     }
