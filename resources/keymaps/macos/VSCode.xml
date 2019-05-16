@@ -221,7 +221,9 @@
     <action id="EditorStartNewLineBefore">
         <keyboard-shortcut first-keystroke="shift meta enter" />
     </action>
-    <action id="EditorTab" />
+    <action id="EditorTab">
+        <keyboard-shortcut first-keystroke="tab" />
+    </action>
     <action id="EditorTextEnd">
         <keyboard-shortcut first-keystroke="meta down" />
     </action>
