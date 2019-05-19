@@ -37,7 +37,7 @@
   <action id="CheckinProject" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ClassTemplateNavigation" />
-  <action id="CloseActiveTab">
+  <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CloseAllEditors">
