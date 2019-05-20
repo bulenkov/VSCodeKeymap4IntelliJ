@@ -1,12 +1,21 @@
 <idea-plugin>
   <id>com.intellij.plugins.vscodekeymap</id>
   <name>VS Code Keymap</name>
-  <version>1.0</version>
+  <version>1.0.2</version>
   <vendor email="kb@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor>
 
+  <change-notes>
+    <![CDATA[
+    <ul>
+      <li>Fixed TAB in editor</li>
+      <li>Fixed shortcut for Close Content action</li>
+    </ul>
+    ]]>
+  </change-notes>
+
   <description>
-      VS Code Keymap for IntelliJ-based IDEs: IntelliJ IDEA, WebStorm, PhpStorm, and others
-    </description>
+    VS Code Keymap for IntelliJ-based IDEs: IntelliJ IDEA, WebStorm, PhpStorm, and others
+  </description>
 
   <idea-version since-build="181"/>
 

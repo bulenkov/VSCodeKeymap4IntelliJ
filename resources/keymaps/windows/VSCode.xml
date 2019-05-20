@@ -1,4 +1,4 @@
-<keymap version="1" name="VS Code" parent="$default">
+<keymap version="1" name="VSCode" parent="$default">
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
@@ -37,7 +37,7 @@
   <action id="CheckinProject" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ClassTemplateNavigation" />
-  <action id="CloseActiveTab">
+  <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CloseAllEditors">
@@ -185,7 +185,9 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
-  <action id="EditorTab" />
+  <action id="EditorTab">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="EditorToggleCase" />
   <action id="EditorToggleColumnMode">
     <mouse-shortcut keystroke="shift alt button1" />
