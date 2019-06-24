@@ -200,6 +200,12 @@
     </action>
     <action id="EditorMoveToPageBottom" />
     <action id="EditorMoveToPageTop" />
+    <action id="EditorNextWord">
+        <keyboard-shortcut first-keystroke="alt right" />
+    </action>
+    <action id="EditorPreviousWord">
+        <keyboard-shortcut first-keystroke="alt left" />
+    </action>
     <action id="EditorScrollDown">
         <keyboard-shortcut first-keystroke="ctrl page_down" />
     </action>
