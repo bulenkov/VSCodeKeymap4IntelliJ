@@ -151,11 +151,9 @@
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
-    <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
@@ -165,12 +163,12 @@
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="EditorPageDownWithSelection" />
   <action id="EditorPageUpWithSelection" />
   <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
