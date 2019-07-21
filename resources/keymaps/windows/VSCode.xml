@@ -25,7 +25,9 @@
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="BaseOnThisFunction" />
-  <action id="BraceOrQuoteOut" />
+  <action id="BraceOrQuoteOut">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift alt 0" />
   </action>
@@ -119,7 +121,9 @@
   </action>
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemDot" />
-  <action id="EditorChooseLookupItemReplace" />
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
@@ -338,14 +342,19 @@
   </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
-  <action id="NextParameter" />
+  <action id="NextParameter">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl right" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
-  <action id="NextTemplateParameter" />
+  <action id="NextTemplateParameter">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
@@ -433,14 +442,18 @@
     <keyboard-shortcut first-keystroke="f1" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
-  <action id="SearchEverywhere.CompleteCommand" />
+  <action id="SearchEverywhere.CompleteCommand">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
-  <action id="SearchEverywhere.NextTab" />
+  <action id="SearchEverywhere.NextTab">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
     <keyboard-shortcut first-keystroke="ctrl f2" />
