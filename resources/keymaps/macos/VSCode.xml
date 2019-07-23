@@ -283,7 +283,7 @@
     </action>
     <action id="FileChooser.GotoDesktop" />
     <action id="FileChooser.NewFile">
-        <keyboard-shortcut first-keystroke="ctrl n" />
+        <keyboard-shortcut first-keystroke="meta n" />
     </action>
     <action id="FileChooser.NewFolder" />
     <action id="FileChooser.TogglePathShowing" />
