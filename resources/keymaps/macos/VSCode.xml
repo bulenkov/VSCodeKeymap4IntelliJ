@@ -191,7 +191,7 @@
     </action>
     <action id="EditorIndentSelection">
         <keyboard-shortcut first-keystroke="tab" />
-	<action/>
+	</action>
     <action id="EditorJoinLines">
         <keyboard-shortcut first-keystroke="ctrl j" />
     </action>
