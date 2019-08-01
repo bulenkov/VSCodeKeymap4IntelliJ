@@ -203,7 +203,6 @@
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="EditorUnindentSelection">
-    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
   <action id="EvaluateExpression" />
