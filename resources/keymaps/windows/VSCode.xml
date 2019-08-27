@@ -463,9 +463,6 @@
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="shift f12" />
   </action>
-  <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="shift alt f12" />
-  </action>
   <action id="SmartTypeCompletion" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
