@@ -327,7 +327,7 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="right" />
   </action>
-  <action id="NewFile">
+  <action id="FileChooser.NewFile">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="NextEditorTab" />
