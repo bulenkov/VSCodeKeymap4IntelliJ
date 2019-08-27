@@ -511,14 +511,18 @@
     <action id="ScrollPane-scrollUp">
         <keyboard-shortcut first-keystroke="meta page_up" />
     </action>
-    <action id="SearchEverywhere.CompleteCommand" />
+    <action id="SearchEverywhere.CompleteCommand">
+        <keyboard-shortcut first-keystroke="tab" />
+    </action>
     <action id="SearchEverywhere.NavigateToNextGroup">
         <keyboard-shortcut first-keystroke="page_down" />
     </action>
     <action id="SearchEverywhere.NavigateToPrevGroup">
         <keyboard-shortcut first-keystroke="page_up" />
     </action>
-    <action id="SearchEverywhere.NextTab" />
+    <action id="SearchEverywhere.NextTab" >
+        <keyboard-shortcut first-keystroke="tab" />
+    </action>
     <action id="SelectAllOccurrences">
         <keyboard-shortcut first-keystroke="meta f2" />
         <keyboard-shortcut first-keystroke="ctrl meta g" />
