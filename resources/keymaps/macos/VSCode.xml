@@ -36,7 +36,9 @@
     <action id="Back">
         <keyboard-shortcut first-keystroke="ctrl minus" />
     </action>
-    <action id="BraceOrQuoteOut" />
+    <action id="BraceOrQuoteOut">
+        <keyboard-shortcut first-keystroke="tab" />
+    </action>
     <action id="ChangeSplitOrientation">
         <keyboard-shortcut first-keystroke="meta alt 0" />
     </action>
