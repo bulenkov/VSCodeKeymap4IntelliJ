@@ -332,14 +332,19 @@
   </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
-  <action id="NextParameter" />
+  <action id="NextParameter">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl right" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
-  <action id="NextTemplateParameter" />
+  <action id="NextTemplateParameter">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="enter" />
   </action>

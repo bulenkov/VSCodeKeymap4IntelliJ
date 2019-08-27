@@ -403,12 +403,17 @@
     </action>
     <action id="NextDiff" />
     <action id="NextOccurence" />
-    <action id="NextParameter" />
+    <action id="NextParameter">
+        <keyboard-shortcut first-keystroke="tab" />
+    </action>
     <action id="NextTab">
         <keyboard-shortcut first-keystroke="shift meta close_bracket" />
         <keyboard-shortcut first-keystroke="meta alt right" />
     </action>
-    <action id="NextTemplateParameter" />
+    <action id="NextTemplateParameter">
+        <keyboard-shortcut first-keystroke="tab" />
+        <keyboard-shortcut first-keystroke="enter" />
+    </action>
     <action id="NextTemplateVariable">
         <keyboard-shortcut first-keystroke="enter" />
     </action>
