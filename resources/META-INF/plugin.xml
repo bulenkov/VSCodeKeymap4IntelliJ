@@ -1,15 +1,23 @@
 <idea-plugin>
   <id>com.intellij.plugins.vscodekeymap</id>
   <name>VS Code Keymap</name>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <vendor email="kb@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor>
 
   <change-notes>
     <![CDATA[
     <ul>
-      <li>Fixed TAB in editor</li>
-      <li>Fixed shortcut for Close Content action</li>
+        <li>Add ShowUsages shortcut</li>
+        <li>Add EditorUnindentSelection shortcut</li>
+        <li>Add EditorIndentSelection shortcut</li>
+        <li>Add EditorChooseLookupItemReplace shortcut</li>
+        <li>Add BraceOrQuoteOut shortcut</li>
+        <li>Fixes for FileChooser.NewFile shortcut</li>
+        <li>Add NextTemplateParameter and NextParameter shortcuts</li>
+        <li>Add SE shortcuts "NextTab" and "CompleteCommand"</li>
+        <li>Delete Find Usages shortcut (shift alt f12) because there's no similar shortcut in VS Code</li>
     </ul>
+
     ]]>
   </change-notes>
 
