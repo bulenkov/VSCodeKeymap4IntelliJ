@@ -149,7 +149,7 @@
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
-  <action id="EditorIndentSelection" />
+  <action id="EditorIndentSelection" >
     <keyboard-shortcut first-keystroke="tab" />
   </action>
   <action id="EditorJoinLines">
