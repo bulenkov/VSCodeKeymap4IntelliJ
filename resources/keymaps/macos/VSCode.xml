@@ -7,7 +7,7 @@
         <keyboard-shortcut first-keystroke="shift meta d" />
     </action>
     <action id="ActivateMessagesToolWindow" />
-    <action id="ActivateProjectToolWindow">
+    <action id="SelectInProjectView">
         <keyboard-shortcut first-keystroke="shift meta e" />
     </action>
     <action id="ActivateRunToolWindow">
